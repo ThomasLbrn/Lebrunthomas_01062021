@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4a8edcaa6.js" crossorigin="anonymous"></script>
+    <title>Reservia</title>
+</head>
+<body>
+    <header>
+ 
+        <div id="logo">
+         <img src="images/logo/Reservia@3x.png" alt="Logo Reservia" />
+        </div>
+
+        <nav>  
+          <div id="ancres">
+             <ul id="liens_mobiles">
+                <li><a href="#hebergements" id="lien_hebergements">Hébergements</a></li>
+                <li><a href="#activites" id="lien_activites">Activités</a></li>
+             </ul>
+             <span id="inscription">S'inscrire</span>
+            </div>
+        </nav>
+    </header>
+    <div id="bloc_page">
+
+        <section class="block_recherche">
+            <div>
+                <h1 class="texteGras">Trouvez votre hébergements pour vos vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <!-- Barre de Recherche -->
+            <div id="bloc_saisie">
+              <form method="POST" action="#"> <i class="fas fa-map-marker-alt map"></i><!--icône map--> <input type="search" name="rechercher" placeholder="Marseille, France" id="rechercher" /> 
+                 <button type="button" id="bouton"> 
+                     <span class="secret"></span>
+                     <i class="fas fa-search" id="search"></i>
+                     <span id="text_rechercher">Rechercher</span>
+                    </button> 
+               </form> 
+            </div> 
+        </section>
+    </div> 
+    <div id="filtres"> 
+         <p id="titre">Filtres</p>
+         <!--Liste des Filtres + icônes-->
+         <div id="liens">
+            <ul> 
+                 <li id="eco"><a href="#"><i class="fas fa-money-bill-wave" id="billet"></i><!--icône billet-->Économique</a></li>
+                 <li id="famille"><a href="#"><i class="fas fa-child" id="enfant"></i><!--icône enfant-->Familial</a></li>
+                 <li id="romantique"><a href="#"><i class="fas fa-heart" id="coeur"></i><!--icône coeur-->Romantique</a></li>
+                 <li id="animaux"><a href="#"><i class="fas fa-dog" id="chien"></i><!--icône chien-->Animaux autorisés</a></li>
+            </ul> 
+          </div>
+    </div>
+    
+    <div id="hebergements_populaires">
+        <!--Icone information-->
+        <section class="information">
+            <div class="bouton_info"><i class="fas fa-xs fa-info"></i></div>
+            <p>Plus de 500 logements sont disponibles</p>
+            
+        </section>
+
+        <div class="forme">
+            <section class="Marseille">
+               <h2 class="titre">Hébergements à Marseille</h2>
+               <div id="liste">
+                   <a class="cliquable" href="#">
+                      <div>
+                         <img class="images" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge_de_la_cannebière">
+                         <h4>Auberge de la Cannebière</h4>
+                         <p>Nuit à partir de 25€</p>
+                       </div>
+                  </a>
+                   <a class="cliquable" href="#">
+                       <div>
+                          <img class="images" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hotel_du_port">
+                          <h4>Hôtel du port</h4>
+                          <p>Nuit à partir de 52€</p>
+                       </div>
+                   </a>
+                   <a class="cliquable" href="#">
+                      <div>
+                         <img class="images" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hotel_les_mouettes">
+                         <h4>Hôtel Les mouettes</h4>
+                         <p>Nuit à partir de 76€</p>
+                      </div>
+                   </a>
+                   <a class="cliquable" href="#">
+                       <div>
+                           <img class="images" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel_de_la_mer">
+                           <h4>Hôtel de la mer</h4>
+                           <p>Nuit à partir de 46€</p>
+                       </div>
+                   </a>
+                   <a class="cliquable" href="#">
+                       <div>
+                          <img class="images" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="auberge_le_panier">
+                          <h4>Auberge Le Panier</h4>
+                          <p>Nuit à partir de 23€</p>
+                       </div>
+                   </a>
+                   <a class="cliquable" href="#">
+                        <div>
+                            <img class="images" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hotel_chez_amina">
+                            <h4>Hôtel chez Amina</h4>
+                            <p>Nuit à partir de 25€</p>
+                       </div>
+                   </a>
+               </div>
+
+               <a href="#" class="plus"><h4>Afficher plus</h4></a>
+            
+            </section>
+
+            <section class="populaire">
+                <h2>Les plus populaires</h2>
+                <div>
+                   <a class="cliquable" href="#">
+                       <div class="alignement">
+                           <div>
+                               <img class="imagespop" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hotel_le_soleil_du_matin">
+                           </div>
+                           <h4>Hôtel Le soleil du matin</h4>
+                           <p>Nuit à partir de 128€</p>
+                           <button>
+                               <span>
+                                   <i></i>
+                               </span>
+                           </button>
+                       </div>
+
+                   </a>
+                   <a class="cliquable" href="#">
+                       <div class="alignement">
+                           <div>
+                               <img class="imagespop" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="au_coeur_de_leau_chambres_dhote">
+                           </div>
+                           <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                           <p>Nuit à partir de 71€</p>
+                           <button>
+                               <span>
+                                   <i></i>
+                               </span>
+                           </button>
+                       </div>
+                   </a>
+                   <a class="cliquable" href="#">
+                       <div class="alignement">
+                           <div>
+                               <img class="imagespop" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
+                           </div>
+                           <h4>Hôtel Tout bleu et Blanc</h4>
+                           <p>Nuit à partir de 68€</p>
+                           <button>
+                               <span>
+                                    <i></i>
+                               </span>
+                           </button>
+                       </div>
+                   </a>
+
+                </div>
+
+            </section>
+        </div>
+
+    </div>
+
+   
+
+            
+        
+    
+    <footer></footer>
+</body>
+</html>

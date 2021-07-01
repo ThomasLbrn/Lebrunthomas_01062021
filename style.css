@@ -2,7 +2,7 @@ html,
 body {
   font-family: "raleway";
   width: fit-content;
-  max-width: 1850px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -536,7 +536,7 @@ ul {
     border-radius: 10px;
   }
 
-  #text-rechercher {
+  #text_rechercher {
     display: none;
   }
 
@@ -581,11 +581,16 @@ ul {
     width: auto;
   }
 
+  .bas {
+    margin-top: 45px;
+  }
+
   /* bloc hébergement marseille */
 
   .forme {
     display: flex;
     flex-direction: column-reverse;
+    width: auto;
   }
 
   #cannebiere,
@@ -594,11 +599,11 @@ ul {
   #auberge_panier,
   #mouettes,
   #amina {
-    width: auto;
+    width: fit-content;
   }
 
   .images {
-    width: 100%;
+    width: auto;
   }
 
   #placement {
@@ -635,8 +640,18 @@ ul {
 
   /* activités à Marseille */
 
+  #activitemarseille {
+    width: auto;
+  }
+
   #actimarseille {
     flex-direction: column;
+    margin-left: 0%;
+  }
+
+  .cliquable {
+    margin-left: 0%;
+    width: fit-content;
   }
 
   .photogrande,
@@ -660,5 +675,6 @@ ul {
 
   .flex {
     flex-direction: column;
+    width: auto;
   }
 }

@@ -600,6 +600,7 @@ ul {
   #mouettes,
   #amina {
     width: fit-content;
+    box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
   }
 
   .images {
@@ -649,26 +650,37 @@ ul {
     margin-left: 0%;
   }
 
-  .cliquable {
-    margin-left: 0%;
-    width: fit-content;
+  .clic2 {
+    width: auto;
   }
 
   .photogrande,
   .photopetite2 {
-    height: 33%;
+    height: 20%;
+    width: 100%;
   }
 
   .photopetite {
-    height: 260px;
+    height: 220px;
+    width: 100%;
   }
 
   .imagesidentique {
-    height: 33%;
+    height: 20%;
+    width: 100%;
   }
 
   #pomegues {
     height: 33%;
+    width: fit-content;
+  }
+
+  #vieuxport,
+  #frioul,
+  #calanques,
+  #eglise,
+  #longchamp {
+    width: fit-content;
   }
 
   /* footer */

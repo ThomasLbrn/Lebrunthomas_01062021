@@ -744,3 +744,316 @@ ul {
     width: auto;
   }
 }
+
+/* responsive tablette */
+
+@media all and (max-width: 1024px) {
+  body {
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  #bloc_page {
+    margin: 0px;
+    padding: 0px;
+  }
+  header {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+  }
+  #logo {
+    margin-top: 0px;
+  }
+  #logo img {
+    margin-top: 20px;
+  }
+  #ancres {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  nav {
+    width: auto;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0px;
+  }
+
+  nav li {
+    width: 50%;
+    border-bottom: 3px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  nav span {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+  }
+  nav a:hover {
+    padding-top: 37px;
+  }
+  nav li a:hover {
+    border-top: none;
+  }
+  nav li:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+
+  /* bloc recherche */
+
+  .block_recherche {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  form {
+    width: auto;
+    margin-top: 30px;
+  }
+
+  #map {
+    width: 10%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  #bouton {
+    width: 10%;
+    border-radius: 10px;
+  }
+
+  #text_rechercher {
+    display: none;
+  }
+
+  #search {
+    display: block;
+  }
+
+  /*block filtre */
+
+  #filtres {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  #liens ul {
+    flex-wrap: wrap;
+  }
+
+  #liens li {
+    margin-bottom: 10px;
+  }
+
+  #titre {
+    margin-bottom: 20px;
+  }
+
+  /* les plus polaires */
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #graph {
+    margin-left: 150px;
+  }
+
+  .pop2 {
+    width: fit-content;
+    display: flex;
+    margin-top: 2px;
+  }
+
+  .alignement {
+    width: fit-content;
+    margin-left: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(182, 182, 182);
+  }
+
+  #titrepop {
+    font-size: 1.3em;
+    width: 80%;
+    margin-bottom: 5px;
+  }
+
+  .largeur {
+    width: fit-content;
+  }
+
+  .imagespop {
+    width: 100%;
+  }
+
+  .populaire {
+    width: auto;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    border-radius: 0%;
+    background-color: white;
+  }
+
+  .cliquable {
+    width: 33%;
+    margin-top: 25px;
+  }
+
+  .bas {
+    margin-top: 45px;
+  }
+
+  #icone {
+    display: none;
+  }
+
+  #icone2 {
+    width: 20%;
+    display: block;
+    margin-top: 18px;
+    padding-left: 40px;
+  }
+
+  span {
+    width: auto;
+    display: flex;
+  }
+
+  .bas {
+    margin-top: 0%;
+  }
+
+  /* bloc hébergement marseille */
+
+  .forme {
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+  }
+
+  #liste {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-left: 45px;
+  }
+
+  .colone {
+    width: auto;
+    display: flex;
+  }
+
+  #cannebiere,
+  #hotel_mer,
+  #hotel_port,
+  #auberge_panier,
+  #mouettes,
+  #amina {
+    width: fit-content;
+    box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+    display: flex;
+  }
+
+  a {
+    width: 50%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .images {
+    width: 50%;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  #placement {
+    display: flex;
+    margin-left: 2px;
+  }
+
+  #liste {
+    flex-direction: column;
+  }
+
+  #marseille {
+    width: auto;
+    flex-direction: column;
+    margin-right: 2px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 0%;
+  }
+
+  .colone {
+    background-color: none;
+  }
+
+  /* activités à Marseille */
+
+  #activitemarseille {
+    width: auto;
+    margin-top: 15px;
+  }
+
+  #actimarseille {
+    margin-left: 0%;
+  }
+
+  .titreactivite {
+    margin-left: 2%;
+  }
+
+  .clic2 {
+    width: auto;
+  }
+
+  .photogrande,
+  .photopetite2 {
+    height: 20%;
+    width: 100%;
+  }
+
+  .photopetite {
+    height: 20%;
+    width: 100%;
+  }
+
+  .imagesidentique {
+    height: 20%;
+    width: 100%;
+  }
+
+  #pomegues {
+    height: 33%;
+    width: fit-content;
+  }
+
+  #vieuxport,
+  #frioul,
+  #calanques,
+  #eglise,
+  #longchamp {
+    width: fit-content;
+  }
+
+  /* footer */
+
+  .flex {
+    width: auto;
+  }
+}

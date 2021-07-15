@@ -992,7 +992,7 @@ ul {
   }
 
   #marseille {
-    width: auto;
+    width: 100%;
     flex-direction: column;
     margin-right: 2px;
     background-color: #f2f2f2;
@@ -1055,6 +1055,6 @@ ul {
   /* footer */
 
   .flex {
-    width: auto;
+    width: 100%;
   }
 }

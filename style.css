@@ -88,7 +88,7 @@ form {
 .map {
   border: 1px solid #f2f2f2;
   border-radius: 10px 0 0 10px;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2f3;
   text-align: center;
   padding-top: 12px;
   width: 40px;
@@ -143,11 +143,10 @@ input {
   color: #0065fc;
   border: 1px solid #deebff;
   border-radius: 30px;
-  background-color: #deebff;
+  background-color: #deebfff8;
   width: 32px;
   height: 32px;
   margin-right: 10px;
-  font-size: bold;
 }
 #eco,
 #famille,
@@ -237,7 +236,7 @@ input {
   border-radius: 15px;
   padding-left: 3px;
   height: 150px;
-  width: 150x;
+  width: 150px;
   box-shadow: 2px 2px 2px rgb(128, 128, 128);
 }
 
@@ -396,7 +395,6 @@ a {
   margin-right: 50px;
   margin-left: 15px;
   margin-bottom: 20px;
-  padding-left: -1px;
 }
 
 .photogrande {
@@ -698,10 +696,6 @@ ul {
     border-radius: 0%;
   }
 
-  .colone {
-    background-color: none;
-  }
-
   /* activités à Marseille */
 
   #activitemarseille {
@@ -979,7 +973,7 @@ ul {
   #auberge_panier,
   #mouettes,
   #amina {
-    width: fit-content;
+    width: auto;
     box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
     display: flex;
   }
@@ -1008,13 +1002,9 @@ ul {
     width: 100%;
     flex-direction: column;
     margin-right: 2px;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2f8;
     border: none;
     border-radius: 0%;
-  }
-
-  .colone {
-    background-color: none;
   }
 
   /* activités à Marseille */
@@ -1069,7 +1059,7 @@ ul {
   #calanques,
   #eglise,
   #longchamp {
-    width: fit-content;
+    width: auto;
   }
 
   .decalage {

@@ -47,6 +47,9 @@ header {
   height: 50px;
   padding-top: 15px;
 }
+
+/* menu navigation */
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -70,6 +73,7 @@ nav a:hover {
 }
 
 /*Bloc recherche*/
+
 #recherche h1 {
   font-weight: bold;
   font-size: 1.2em;

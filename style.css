@@ -234,6 +234,27 @@ input {
   text-decoration: none;
 }
 
+#cannebiere,
+#hotel_mer,
+#hotel_port,
+#auberge_panier,
+#mouettes,
+#amina {
+  background-color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-top: 3px;
+  box-shadow: 2px 2px 2px rgb(182, 182, 182);
+}
+
+.textalign {
+  padding-left: 10px;
+}
+
 /*  les plus populaires */
 
 #cliquable {
@@ -299,27 +320,6 @@ input {
 .pop2 {
   height: fit-content;
   border-radius: 15px;
-}
-
-#cannebiere,
-#hotel_mer,
-#hotel_port,
-#auberge_panier,
-#mouettes,
-#amina {
-  background-color: white;
-  border-radius: 15px;
-  text-decoration: none;
-  color: black;
-  margin-bottom: 10px;
-  padding-bottom: 3px;
-  padding-left: 3px;
-  padding-top: 3px;
-  box-shadow: 2px 2px 2px rgb(182, 182, 182);
-}
-
-.textalign {
-  padding-left: 10px;
 }
 
 h4 {
